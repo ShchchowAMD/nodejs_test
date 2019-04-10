@@ -31,6 +31,8 @@ app.use(function (err, req, res, next) {
 });
 
 app.get('/getToken', function (req, res) {
+    console.log('ip');
+    console.log(req.ip);
     res.json({
         result: 'ok',
         token: jwt.sign({
