@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_test",
+  "version": "1.0.0",
+  "description": "test of nodejs , in any funny things.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShChCh/nodejs_test.git"
+  },
+  "author": "shaochi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShChCh/nodejs_test/issues"
+  },
+  "homepage": "https://github.com/ShChCh/nodejs_test#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jwt-express": "^1.1.0",
+    "mocha": "^6.1.2",
+    "mongodb": "^3.2.3",
+    "sequelize": "^5.2.15",
+    "supertest": "^4.0.2"
+  }
+}
